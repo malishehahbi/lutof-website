@@ -108,7 +108,7 @@
 			</p>
 			<div class="mt-8">
 				<a
-					href="#"
+					href="javascript:void(0)"
 					class="inline-flex h-12 min-w-[200px] items-center justify-center rounded-lg bg-primary px-8 text-sm font-semibold text-primary-foreground transition-all duration-200 ease-out hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-[0.98]"
 				>
 					Download for Windows
@@ -118,7 +118,7 @@
 	</section>
 
 	<!-- Footer -->
-	<footer class="border-t border-border/30 px-4 py-8 sm:px-6" role="contentinfo">
+	<footer class="border-t border-border/30 px-4 py-8 sm:px-6">
 		<div class="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
 			<div class="flex items-center gap-2">
 				<img src={favicon} alt="Lutof" class="h-6 w-6" />
