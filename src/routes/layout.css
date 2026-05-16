@@ -139,16 +139,46 @@
 	}
 	html {
 		@apply font-sans;
+		font-kerning: normal;
+	}
+	h1, h2, h3 {
+		text-wrap: balance;
+	}
+	p {
+		text-wrap: pretty;
 	}
 }
 
 @layer utilities {
-	.tracking-tightest {
+	.typo-display {
+		font-weight: 700;
+		font-size: clamp(3rem, 8vw, 4.5rem);
+		line-height: 0.95;
 		letter-spacing: -0.03em;
 	}
-	.leading-relaxed-custom {
+	.typo-headline {
+		font-weight: 700;
+		font-size: 1.875rem;
+		line-height: 1.1;
+		letter-spacing: -0.03em;
+	}
+	.typo-title {
+		font-weight: 600;
+		font-size: 1.5rem;
+		line-height: 1.2;
+		letter-spacing: -0.03em;
+	}
+	.typo-body {
+		font-weight: 400;
+		font-size: 1rem;
 		line-height: 1.6;
 	}
+	.typo-label {
+		font-weight: 600;
+		font-size: 0.875rem;
+		line-height: 1.4;
+	}
+
 	@keyframes fade-in-up {
 		from {
 			opacity: 0;
